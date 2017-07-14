@@ -1,12 +1,18 @@
 
-function rand(num){
-// this is a function
-// that returns a random number between 0 and num
-var randNum = Math.random()*num; // assign a random # to randNum
-var result = Math.floor(randNum); // set randNum to non decimal 
+var myPokemonRoster = [
+    ['Charizard', 'Fire', 150, 200, 100, true],
+    ['Charizard2', 'Fire2', 1502, 2002, 1002, true]
+];
 
-return result;
-}
+function logPokemon() {
+    // console.log('hello');
+    var mySentence = '';
+    for(i = 0; i < myPokemonRoster.length; i++){
+        // console.log(myPokemonRoster[i][0]);
+        // console.log('#');
+        mySentence = mySentence + 
+        console.log('#' + i + ' ' + myPokemonRoster[i][0] + 'TYPE: ' + myPokemonRoster[i][1]);
+    }
+};
 
-var myAlphabet = ['a','b','c','d'];
-
+logPokemon();
