@@ -54,9 +54,15 @@ var myPokemonObjects = [
 
 
 // declare a function called print rosterthat takes an array of objects
-function printRoster(someArray){
-    for (var i = 0; i < someArray.length; i++){
-        console.log(someArray[i].hp);
+function printer(name){
+    name.toUpperCase();
+    
+}
+printer('Victor');
+
+function printRoster(ele){
+    for (var i = 0; i < ele.length; i++){
+        console.log(ele[i].hp);
         
     }
 }
