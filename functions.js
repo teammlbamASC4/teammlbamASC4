@@ -11,3 +11,7 @@ console.log(superman);
 var batman = new SuperHero('Bruce Wayne', 'Acrobatics');
 
 console.log(batman);
+
+function myFunction(){
+    
+}  
