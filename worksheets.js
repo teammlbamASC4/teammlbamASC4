@@ -55,7 +55,7 @@ function myFunction1(){
 }
 var myFunction2 = function(){
 
-}
+};
 
 function pokemon(name, hp, speak){
     this.name = name;
