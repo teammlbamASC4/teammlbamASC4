@@ -1,0 +1,21 @@
+
+body {
+    /* background-color: red; */
+}
+
+.bio {
+    /* background-color: green; */
+    text-align:center;
+}
+
+.timeline {
+    /* background-color: orange; */
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.keydate {
+    padding-bottom: 25px;
+    border-bottom: 1px dotted black;
+}
