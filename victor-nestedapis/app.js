@@ -1,10 +1,5 @@
 
 
-// nOt20bvI0u$ X
-// nOt20bvi0u$ X
-// n0t20bvl0u$ - can't connect
-// n0t20bv10u$ X
-
 var firstName = '';
 var lastName = '';
 var userSex = '';
@@ -16,10 +11,11 @@ $(document).ready(function () {
         url: 'https://randomuser.me/api/',
         dataType: 'json',
         success: function (data) {
-            // console.log(data)
+            // console.log(data.results[0].name.first);
             getData(data);
         }
     });     
+
 
     function getData(arg1) {
         countryCode = arg1.results[0].nat;
